@@ -118,6 +118,6 @@ scaffold.sh 只生成骨架，**题面正文需要 LLM 在审核后填入**。pd
 - 不要假设题数 / 题号上限（不要默认 M）；按 PDF 实际题目列表来
 - 不要把 pdftotext 的原始文本直接写进 problem.md，必须先按 checklist 规范化
 - 不要解题，不要写 `analysis.md` 题解正文或 `ac.cpp` 实际算法（保留 TODO，等用户单独要求）
-- 不要在本机编译运行 `ac.cpp`（参见 CLAUDE.md）
+- 本 skill 范围内不编译运行 `ac.cpp`（骨架是 TODO 不可能 AC）；解题阶段允许 compile + 跑 PDF 样例验证，详见 CLAUDE.md
 - 不要修改 `CLAUDE.md` 或 `docs/` 模板规范；规范不够用就告诉用户改模板
 - 不要创建非规范目录（`solutions/`、`tests/` 等）
