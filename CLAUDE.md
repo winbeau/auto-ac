@@ -95,3 +95,7 @@ auto-ac/
   - 创建非本文件约定的目录（如 `solutions/`、`tests/`）
   - 在 `ac.cpp` 里留调试输出 / 注释掉的代码
   - 修改已有比赛目录的命名（先和用户确认）
+
+## 项目内置 Skill
+
+- `.claude/skills/import-problems/` — "导入题目 / 整理题目 / PDF 转目录" 工作流：解析比赛 PDF → 规范化目录名 → git mv PDF → 批量生成 A..? 骨架。同目录附 `scaffold.sh` 做批量模板渲染。
